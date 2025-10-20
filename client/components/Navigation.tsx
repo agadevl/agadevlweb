@@ -27,6 +27,9 @@ export default function Navigation() {
             <span className="hidden sm:inline">Rida Sersif</span>
           </Link>
 
+          {/* Divider */}
+          <div className="hidden md:block h-8 w-px bg-white/20" />
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
