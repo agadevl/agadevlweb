@@ -1,0 +1,106 @@
+export default function Hero() {
+  return (
+    <div className="relative min-h-screen w-full overflow-hidden bg-[hsl(var(--background))]">
+      {/* Decorative gradient blobs */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Blob 1 - Top left purple to white gradient */}
+        <div
+          className="absolute w-96 h-96 rounded-full blur-3xl opacity-30"
+          style={{
+            background: "radial-gradient(circle, rgba(168, 85, 247, 0.6) 0%, rgba(255, 255, 255, 0.1) 70%)",
+            top: "-10%",
+            left: "-5%",
+          }}
+        />
+        {/* Blob 2 - Top right pink to purple gradient */}
+        <div
+          className="absolute w-96 h-96 rounded-full blur-3xl opacity-25"
+          style={{
+            background: "radial-gradient(circle, rgba(236, 72, 153, 0.5) 0%, rgba(168, 85, 247, 0.3) 50%, transparent 70%)",
+            top: "-5%",
+            right: "5%",
+          }}
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex items-center justify-center min-h-screen">
+        <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+          {/* Badge */}
+          <div className="mb-8 sm:mb-12 lg:mb-16 flex items-center justify-center">
+            <div className="inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                className="text-white"
+              >
+                <path
+                  d="M8 1L10.4 7.4L17 8L12 13L13.8 19.5L8 15.9L2.2 19.5L4 13L-1 8L5.6 7.4L8 1Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span className="text-xs sm:text-sm font-mono text-white/90 tracking-wide">
+                Crafting digital experiences
+              </span>
+            </div>
+          </div>
+
+          {/* Main Heading */}
+          <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-2 sm:mb-4">
+              <span className="text-white">Hello</span>
+            </h1>
+            <div className="relative inline-block">
+              <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight">
+                There
+                <span className="text-[hsl(var(--purple-accent))]"> !</span>
+              </h2>
+              {/* Underline accent */}
+              <div
+                className="h-1 sm:h-1.5 bg-[hsl(var(--purple-accent))] mt-2 sm:mt-4 rounded-full"
+                style={{
+                  width: "95%",
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Subheading with code-like text */}
+          <div className="text-center mb-8 sm:mb-10 lg:mb-16">
+            <div className="flex items-center justify-center mb-4 sm:mb-5 gap-1">
+              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
+                sahi[fullstackportfolio.netlify.app
+              </span>
+              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">]</span>
+            </div>
+            <p className="text-sm sm:text-base text-white/50 font-normal">
+              (This is my portfolio website)
+            </p>
+          </div>
+
+          {/* Loading text */}
+          <div className="flex items-center justify-center gap-2 sm:gap-3">
+            <p className="text-xs sm:text-sm text-white/40 font-light">
+              Loading my best work for you...
+            </p>
+            <div className="flex gap-1 sm:gap-1.5">
+              <div
+                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/30 animate-pulse"
+              />
+              <div
+                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/40 animate-pulse"
+                style={{ animationDelay: "0.2s" }}
+              />
+              <div
+                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/50 animate-pulse"
+                style={{ animationDelay: "0.4s" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
