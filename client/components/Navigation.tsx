@@ -23,10 +23,10 @@ export default function Navigation() {
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3a504946821f498f976b3da771886988%2Fd746250380a8408eb86c4f4a43ddf26c?format=webp&width=800"
-              alt="Rida Sersif"
+              alt="Abdellah Afraoua"
               className="w-10 h-10 rounded-full object-cover border border-[hsl(var(--purple-accent))]"
             />
-            <span className="hidden sm:inline">Rida Sersif</span>
+            <span className="hidden sm:inline">Abdellah Afraoua</span>
           </Link>
 
           {/* Divider */}

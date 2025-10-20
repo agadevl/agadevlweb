@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="w-8 h-8 rounded-lg bg-[hsl(var(--purple-accent))] flex items-center justify-center">
               <span className="text-white font-bold text-sm">RS</span>
             </div>
-            <span className="font-bold text-white">Rida Sersif</span>
+            <span className="font-bold text-white">Abdellah Afraoua</span>
           </div>
           <p className="text-white/60 text-sm">
             Full-stack developer creating beautiful digital experiences.
@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             {/* Copyright */}
             <p className="text-white/50 text-sm">
-              © {currentYear} Rida Sersif. All rights reserved.
+              © {currentYear} Abdellah Afraoua. All rights reserved.
             </p>
 
             {/* Social Links */}

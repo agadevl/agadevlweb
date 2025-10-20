@@ -23,7 +23,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-white/70 leading-relaxed">
                 <p>
-                  I'm Rida Sersif, a passionate full-stack developer from Morocco with a
+                  I'm Abdellah Afraoua, a passionate full-stack developer from Morocco with a
                   deep love for crafting beautiful, functional digital experiences. With
                   expertise in React, Node.js, and modern web technologies, I transform
                   ideas into reality.
