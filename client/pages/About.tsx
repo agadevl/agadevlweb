@@ -18,6 +18,11 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Left Column - Bio */}
             <div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F3a504946821f498f976b3da771886988%2Fd746250380a8408eb86c4f4a43ddf26c?format=webp&width=800"
+                alt="Rida Sersif"
+                className="w-full rounded-lg object-cover mb-8 border border-[hsl(var(--purple-accent))]/30"
+              />
               <h2 className="text-2xl font-bold text-white mb-6">
                 Full-Stack Developer & Designer
               </h2>
