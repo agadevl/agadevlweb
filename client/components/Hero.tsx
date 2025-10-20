@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-[hsl(var(--background))]">
+    <div className="relative w-full overflow-hidden bg-[hsl(var(--background))] pt-20 sm:pt-24 pb-20 min-h-screen flex items-center justify-center">
       {/* Decorative gradient blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Blob 1 - Top left white to purple gradient */}
@@ -28,7 +28,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen">
+      <div className="relative z-10">
         <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
           {/* Badge */}
           <div className="mb-8 sm:mb-12 lg:mb-16 flex items-center justify-center">
