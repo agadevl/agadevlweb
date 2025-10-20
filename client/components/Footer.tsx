@@ -50,20 +50,7 @@ export default function Footer() {
         </div>
 
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Brand Column */}
-          <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-[hsl(var(--purple-accent))] flex items-center justify-center">
-                <span className="text-white font-bold text-sm">RS</span>
-              </div>
-              <span className="font-bold text-white">Rida Sersif</span>
-            </div>
-            <p className="text-white/60 text-sm">
-              Full-stack developer creating beautiful digital experiences.
-            </p>
-          </div>
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Navigation Column */}
           <div>
             <h3 className="font-semibold text-white mb-4">Navigation</h3>
