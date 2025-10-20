@@ -30,15 +30,6 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10">
         <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-          {/* Profile Image */}
-          <div className="mb-8 sm:mb-12 lg:mb-16 flex items-center justify-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F3a504946821f498f976b3da771886988%2Fd746250380a8408eb86c4f4a43ddf26c?format=webp&width=800"
-              alt="Rida Sersif"
-              className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-2 border-[hsl(var(--purple-accent))] shadow-lg"
-            />
-          </div>
-
           {/* Badge */}
           <div className="mb-8 sm:mb-12 lg:mb-16 flex items-center justify-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm">
