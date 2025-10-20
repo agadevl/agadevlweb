@@ -36,6 +36,19 @@ export default function Footer() {
   return (
     <footer className="bg-[hsl(var(--background))] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        {/* Brand Section */}
+        <div className="mb-12 pb-12 border-b border-white/10">
+          <div className="flex items-center gap-2 mb-4">
+            <div className="w-8 h-8 rounded-lg bg-[hsl(var(--purple-accent))] flex items-center justify-center">
+              <span className="text-white font-bold text-sm">RS</span>
+            </div>
+            <span className="font-bold text-white">Rida Sersif</span>
+          </div>
+          <p className="text-white/60 text-sm">
+            Full-stack developer creating beautiful digital experiences.
+          </p>
+        </div>
+
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Column */}
