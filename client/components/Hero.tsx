@@ -3,22 +3,26 @@ export default function Hero() {
     <div className="relative min-h-screen w-full overflow-hidden bg-[hsl(var(--background))]">
       {/* Decorative gradient blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Blob 1 - Top left purple to white gradient */}
+        {/* Blob 1 - Top left white to purple gradient */}
         <div
-          className="absolute w-96 h-96 rounded-full blur-3xl opacity-30"
+          className="absolute rounded-full blur-[100px] opacity-40"
           style={{
-            background: "radial-gradient(circle, rgba(168, 85, 247, 0.6) 0%, rgba(255, 255, 255, 0.1) 70%)",
-            top: "-10%",
-            left: "-5%",
+            background: "radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(168, 85, 247, 0.4) 50%, transparent 70%)",
+            top: "-15%",
+            left: "-10%",
+            width: "500px",
+            height: "500px",
           }}
         />
         {/* Blob 2 - Top right pink to purple gradient */}
         <div
-          className="absolute w-96 h-96 rounded-full blur-3xl opacity-25"
+          className="absolute rounded-full blur-[120px] opacity-35"
           style={{
-            background: "radial-gradient(circle, rgba(236, 72, 153, 0.5) 0%, rgba(168, 85, 247, 0.3) 50%, transparent 70%)",
-            top: "-5%",
-            right: "5%",
+            background: "radial-gradient(circle, rgba(236, 72, 153, 0.35) 0%, rgba(168, 85, 247, 0.25) 50%, transparent 70%)",
+            top: "-10%",
+            right: "-5%",
+            width: "550px",
+            height: "550px",
           }}
         />
       </div>
