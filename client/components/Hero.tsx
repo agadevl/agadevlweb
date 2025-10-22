@@ -53,12 +53,12 @@ export default function Hero() {
 
           {/* Main Heading */}
           <div className="text-center mb-8 sm:mb-10 lg:mb-12">
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-2 sm:mb-4">
-              <span className="text-white">I'm</span>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-4 sm:mb-6 text-white">
+              Hi 👋 My name is
             </h1>
             <div className="relative inline-block">
-              <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight">
-                <p>Abdellah </p>
+              <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight mb-2 sm:mb-4">
+                <p>Abdellah</p>
                 <p>Afraoua</p>
               </h2>
               {/* Underline accent */}
@@ -69,6 +69,9 @@ export default function Hero() {
                 }}
               />
             </div>
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mt-6 sm:mt-8">
+              Full-Stack Developer
+            </h3>
           </div>
 
           {/* Subheading with code-like text */}
