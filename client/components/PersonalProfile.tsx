@@ -45,10 +45,11 @@ export default function PersonalProfile() {
         <div className="max-w-3xl mx-auto mb-16">
           <p className="text-white/80 text-center leading-relaxed text-lg">
             I'm a dedicated Full Stack Developer with a passion for creating
-            exceptional digital experiences. With expertise spanning modern frontend
-            frameworks, backend development, and database management, I bring
-            comprehensive solutions to every project. My approach combines technical
-            excellence with a deep understanding of user needs and business goals.
+            exceptional digital experiences. With expertise spanning modern
+            frontend frameworks, backend development, and database management, I
+            bring comprehensive solutions to every project. My approach combines
+            technical excellence with a deep understanding of user needs and
+            business goals.
           </p>
         </div>
 

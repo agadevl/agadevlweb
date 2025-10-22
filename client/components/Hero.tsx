@@ -7,7 +7,8 @@ export default function Hero() {
         <div
           className="absolute rounded-full blur-[100px] opacity-40"
           style={{
-            background: "radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(168, 85, 247, 0.4) 50%, transparent 70%)",
+            background:
+              "radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(168, 85, 247, 0.4) 50%, transparent 70%)",
             top: "-15%",
             left: "-10%",
             width: "500px",
@@ -18,7 +19,8 @@ export default function Hero() {
         <div
           className="absolute rounded-full blur-[120px] opacity-35"
           style={{
-            background: "radial-gradient(circle, rgba(236, 72, 153, 0.35) 0%, rgba(168, 85, 247, 0.25) 50%, transparent 70%)",
+            background:
+              "radial-gradient(circle, rgba(236, 72, 153, 0.35) 0%, rgba(168, 85, 247, 0.25) 50%, transparent 70%)",
             top: "-10%",
             right: "-5%",
             width: "550px",
@@ -80,7 +82,9 @@ export default function Hero() {
               <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
                 www.Afraoua.it
               </span>
-              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">]</span>
+              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
+                ]
+              </span>
             </div>
             <p className="text-sm sm:text-base text-white/50 font-normal">
               <br />
@@ -93,9 +97,7 @@ export default function Hero() {
               Loading my best work for you...
             </p>
             <div className="flex gap-1 sm:gap-1.5">
-              <div
-                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/30 animate-pulse"
-              />
+              <div className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/30 animate-pulse" />
               <div
                 className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/40 animate-pulse"
                 style={{ animationDelay: "0.2s" }}
