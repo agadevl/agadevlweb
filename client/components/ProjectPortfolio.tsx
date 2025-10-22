@@ -19,6 +19,7 @@ const allProjects: Project[] = [
     description: "Full-featured e-commerce solution with payment integration",
     category: "E-commerce",
     tags: ["React", "Node.js", "Stripe"],
+    imageUrl: "https://images.unsplash.com/photo-1661956601031-faf26d404a4a?w=600&h=400&fit=crop",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ const allProjects: Project[] = [
     description: "Interactive educational platform with course management",
     category: "Education",
     tags: ["React", "Firebase", "TypeScript"],
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=600&h=400&fit=crop",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const allProjects: Project[] = [
     description: "Command-line interface for API management",
     category: "console",
     tags: ["Node.js", "CLI", "GraphQL"],
+    imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ const allProjects: Project[] = [
     description: "Health and lifestyle application with real-time tracking",
     category: "Health & Lifestyle",
     tags: ["React", "MongoDB", "Express"],
+    imageUrl: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop",
   },
   {
     id: 5,
@@ -47,6 +51,7 @@ const allProjects: Project[] = [
     description: "Modern e-commerce platform with admin dashboard",
     category: "E-commerce",
     tags: ["React", "TypeScript", "Tailwind CSS"],
+    imageUrl: "https://images.unsplash.com/photo-1563062409-d8350b4e3a0b?w=600&h=400&fit=crop",
   },
   {
     id: 6,
@@ -54,6 +59,7 @@ const allProjects: Project[] = [
     description: "Educational platform for online learning and certification",
     category: "Education",
     tags: ["Next.js", "PostgreSQL", "React"],
+    imageUrl: "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=600&h=400&fit=crop",
   },
 ];
 
