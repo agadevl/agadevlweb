@@ -24,6 +24,14 @@ export default function PersonalProfile() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
+          {/* Profile Image */}
+          <div className="mb-6 flex justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F3a504946821f498f976b3da771886988%2Fd746250380a8408eb86c4f4a43ddf26c?format=webp&width=800"
+              alt="Abdellah Afraoua"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-[hsl(var(--purple-accent))]"
+            />
+          </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
             Personal Profile
           </h2>
