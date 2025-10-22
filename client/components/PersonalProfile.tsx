@@ -29,7 +29,7 @@ export default function PersonalProfile() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F3a504946821f498f976b3da771886988%2Fd746250380a8408eb86c4f4a43ddf26c?format=webp&width=800"
               alt="Abdellah Afraoua"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-[hsl(var(--purple-accent))]"
+              className="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-2 border-[hsl(var(--purple-accent))]"
             />
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
