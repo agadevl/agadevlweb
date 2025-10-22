@@ -54,7 +54,7 @@ export default function Hero() {
           {/* Main Heading */}
           <div className="text-center mb-8 sm:mb-10 lg:mb-12">
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight mb-2 sm:mb-4">
-              <span className="text-white">Hello</span>
+              <span className="text-white">I'm</span>
             </h1>
             <div className="relative inline-block">
               <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight">
