@@ -9,6 +9,7 @@ interface Project {
   tags: string[];
   liveUrl?: string;
   githubUrl?: string;
+  imageUrl?: string;
 }
 
 const allProjects: Project[] = [
