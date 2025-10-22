@@ -58,8 +58,8 @@ export default function Hero() {
             </h1>
             <div className="relative inline-block">
               <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight">
-                There
-                <span className="text-[hsl(var(--purple-accent))]"> !</span>
+                <p>Abdellah </p>
+                <p>Afraoua</p>
               </h2>
               {/* Underline accent */}
               <div
@@ -75,12 +75,12 @@ export default function Hero() {
           <div className="text-center mb-8 sm:mb-10 lg:mb-16">
             <div className="flex items-center justify-center mb-4 sm:mb-5 gap-1">
               <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
-                sahi[fullstackportfolio.netlify.app
+                www.Afraoua.it
               </span>
               <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">]</span>
             </div>
             <p className="text-sm sm:text-base text-white/50 font-normal">
-              (This is my portfolio website)
+              <br />
             </p>
           </div>
 
