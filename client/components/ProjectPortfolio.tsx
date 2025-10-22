@@ -115,12 +115,22 @@ export default function ProjectPortfolio() {
               key={project.id}
               className="bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:border-white/20 transition-all hover:bg-white/10 group"
             >
-              {/* Placeholder Image */}
+              {/* Project Image */}
               <div className="h-48 bg-gradient-to-br from-[hsl(var(--purple-accent))]/20 to-[hsl(var(--blue-accent))]/20 flex items-center justify-center relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent" />
-                <div className="relative text-white/30 text-lg font-semibold">
-                  {project.category}
-                </div>
+                {project.imageUrl ? (
+                  <img
+                    src={project.imageUrl}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent" />
+                    <div className="relative text-white/30 text-lg font-semibold">
+                      {project.category}
+                    </div>
+                  </>
+                )}
               </div>
 
               {/* Content */}
