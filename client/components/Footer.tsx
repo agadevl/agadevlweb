@@ -73,7 +73,7 @@ export default function Footer() {
               Ready to start your project? Let's talk!
             </p>
             <a
-              href="mailto:hello@example.com"
+              href="mailto:afraoua@live.fr"
               className="inline-block px-4 py-2 rounded-lg bg-[hsl(var(--purple-accent))] text-white text-sm font-medium hover:opacity-90 transition-opacity"
             >
               Send Email
