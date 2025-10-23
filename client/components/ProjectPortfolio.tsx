@@ -47,7 +47,7 @@ const allProjects: Project[] = [
     category: "Health & Lifestyle",
     tags: ["React", "MongoDB", "Express"],
     imageUrl:
-      "https://images.pexels.com/photos/6551070/pexels-photo-6551070.jpeg?w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/4428985/pexels-photo-4428985.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 5,
