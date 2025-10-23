@@ -185,13 +185,26 @@ export default function Contact() {
                   <h4 className="text-sm font-semibold text-white uppercase tracking-wider">
                     Direct Contact
                   </h4>
-                  <a
-                    href="mailto:hello@example.com"
-                    className="inline-flex items-center gap-3 text-white/70 hover:text-white transition-colors"
-                  >
-                    <Mail size={20} />
-                    <span>hello@example.com</span>
-                  </a>
+                  <div className="space-y-3">
+                    {contactInfo.map((info) => {
+                      const Icon = info.icon;
+                      return (
+                        <a
+                          key={info.label}
+                          href={info.href}
+                          className="flex items-center gap-3 text-white/70 hover:text-white transition-colors"
+                        >
+                          <Icon size={20} />
+                          <div className="flex flex-col">
+                            <span className="text-xs text-white/50 font-semibold uppercase">
+                              {info.label}
+                            </span>
+                            <span>{info.value}</span>
+                          </div>
+                        </a>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
 
