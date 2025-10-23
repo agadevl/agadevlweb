@@ -29,11 +29,32 @@ export default function Contact() {
     }, 3000);
   };
 
+  const contactInfo = [
+    {
+      icon: Mail,
+      label: "Email",
+      value: "afraoua@live.fr",
+      href: "mailto:afraoua@live.fr",
+    },
+    {
+      icon: Phone,
+      label: "Phone",
+      value: "+39 351 753 9367",
+      href: "tel:+393517539367",
+    },
+    {
+      icon: MapPin,
+      label: "Location",
+      value: "Sondrio, Italy",
+      href: "#",
+    },
+  ];
+
   const socialLinks = [
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:hello@example.com",
+      href: "mailto:afraoua@live.fr",
       color: "hover:text-[hsl(var(--blue-accent))]",
     },
     {
