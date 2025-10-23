@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, Phone, MapPin } from "lucide-react";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
