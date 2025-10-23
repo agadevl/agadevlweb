@@ -20,7 +20,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "Node.js", "Stripe"],
     imageUrl:
-      "https://images.unsplash.com/photo-1661956601031-faf26d404a4a?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=1",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const allProjects: Project[] = [
     category: "Education",
     tags: ["React", "Firebase", "TypeScript"],
     imageUrl:
-      "https://images.unsplash.com/photo-1516321318423-f06f70d504f0?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=2",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const allProjects: Project[] = [
     category: "console",
     tags: ["Node.js", "CLI", "GraphQL"],
     imageUrl:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=3",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const allProjects: Project[] = [
     category: "Health & Lifestyle",
     tags: ["React", "MongoDB", "Express"],
     imageUrl:
-      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=4",
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrl:
-      "https://images.unsplash.com/photo-1563062409-d8350b4e3a0b?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=5",
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const allProjects: Project[] = [
     category: "Education",
     tags: ["Next.js", "PostgreSQL", "React"],
     imageUrl:
-      "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=600&h=400&fit=crop",
+      "https://picsum.photos/600/400?random=6",
   },
 ];
 
