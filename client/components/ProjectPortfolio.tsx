@@ -20,7 +20,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "Node.js", "Stripe"],
     imageUrl:
-      "https://picsum.photos/600/400?random=1",
+      "https://images.pexels.com/photos/6214450/pexels-photo-6214450.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const allProjects: Project[] = [
     category: "Education",
     tags: ["React", "Firebase", "TypeScript"],
     imageUrl:
-      "https://picsum.photos/600/400?random=2",
+      "https://images.pexels.com/photos/20432872/pexels-photo-20432872.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const allProjects: Project[] = [
     category: "console",
     tags: ["Node.js", "CLI", "GraphQL"],
     imageUrl:
-      "https://picsum.photos/600/400?random=3",
+      "https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const allProjects: Project[] = [
     category: "Health & Lifestyle",
     tags: ["React", "MongoDB", "Express"],
     imageUrl:
-      "https://picsum.photos/600/400?random=4",
+      "https://images.pexels.com/photos/6551070/pexels-photo-6551070.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrl:
-      "https://picsum.photos/600/400?random=5",
+      "https://images.pexels.com/photos/6214450/pexels-photo-6214450.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const allProjects: Project[] = [
     category: "Education",
     tags: ["Next.js", "PostgreSQL", "React"],
     imageUrl:
-      "https://picsum.photos/600/400?random=6",
+      "https://images.pexels.com/photos/8617774/pexels-photo-8617774.jpeg?w=600&h=400&fit=crop",
   },
 ];
 
