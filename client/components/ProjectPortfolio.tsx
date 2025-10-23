@@ -38,7 +38,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrl:
-      "https://images.pexels.com/photos/6214450/pexels-photo-6214450.jpeg?w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/7679456/pexels-photo-7679456.jpeg?w=600&h=400&fit=crop",
   },
 ];
 
