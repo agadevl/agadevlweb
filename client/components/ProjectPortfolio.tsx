@@ -20,7 +20,7 @@ const allProjects: Project[] = [
     category: "E-commerce",
     tags: ["React", "Node.js", "Stripe"],
     imageUrl:
-      "https://images.pexels.com/photos/6214450/pexels-photo-6214450.jpeg?w=600&h=400&fit=crop",
+      "https://images.pexels.com/photos/6214370/pexels-photo-6214370.jpeg?w=600&h=400&fit=crop",
   },
   {
     id: 2,
