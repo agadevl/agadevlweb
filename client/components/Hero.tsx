@@ -1,3 +1,5 @@
+import { Download, Github, Linkedin } from "lucide-react";
+
 export default function Hero() {
   return (
     <div
