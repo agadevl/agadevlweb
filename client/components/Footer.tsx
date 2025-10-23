@@ -37,7 +37,7 @@ export default function Footer() {
     <footer className="bg-[hsl(var(--background))] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Navigation Column */}
           <div>
             <h3 className="font-semibold text-white mb-4">Navigation</h3>
@@ -64,6 +64,40 @@ export default function Footer() {
               <li>UI/UX Design</li>
               <li>Consulting</li>
             </ul>
+          </div>
+
+          {/* Contact Column */}
+          <div>
+            <h3 className="font-semibold text-white mb-4">Contact</h3>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <Mail size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-white/60 text-xs font-semibold uppercase">Email</p>
+                  <a href="mailto:afraoua@live.fr" className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors">
+                    afraoua@live.fr
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Phone size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-white/60 text-xs font-semibold uppercase">Phone</p>
+                  <a href="tel:+393517539367" className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors">
+                    +39 351 753 9367
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <MapPin size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <div>
+                  <p className="text-white/60 text-xs font-semibold uppercase">Location</p>
+                  <p className="text-white text-sm">
+                    Sondrio, Italy
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Get In Touch Column */}
