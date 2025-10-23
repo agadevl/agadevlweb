@@ -55,9 +55,24 @@ export default function Hero() {
 
           {/* Main Heading */}
           <div className="text-center mb-8 sm:mb-10 lg:mb-12">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-4 sm:mb-6 text-white">
-              Hi 👋 My name is
-            </h1>
+            <div style={{ margin: "-4px 0 24px" }}>
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-white">
+                <span className="inline-block">I'm</span>
+              </h1>
+            </div>
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <div className="text-white/40 text-sm font-light">
+                <h2 style={{ textAlign: "center" }}></h2>
+              </div>
+              <div className="relative inline-block">
+                <div
+                  className="h-1 sm:h-1.5 bg-[hsl(var(--purple-accent))] mt-2 sm:mt-4 rounded-full"
+                  style={{
+                    width: "95%",
+                  }}
+                />
+              </div>
+            </div>
             <div className="relative inline-block">
               <h2 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[hsl(var(--purple-accent))] tracking-tight mb-2 sm:mb-4">
                 <p>Abdellah</p>
@@ -71,7 +86,7 @@ export default function Hero() {
                 }}
               />
             </div>
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mt-6 sm:mt-8">
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white" style={{ marginTop: "27px" }}>
               Full-Stack Developer
             </h3>
           </div>
