@@ -102,7 +102,9 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 sm:mt-12">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/16OGMpCZtUrLENL4MtFyfo1mrdA-OX8lJ/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-full bg-[hsl(var(--purple-accent))] text-white font-semibold hover:opacity-90 transition-opacity"
             >
               <Download size={18} />
