@@ -32,24 +32,6 @@ const allProjects: Project[] = [
       "https://images.pexels.com/photos/20432872/pexels-photo-20432872.jpeg?w=600&h=400&fit=crop",
   },
   {
-    id: 3,
-    title: "Developer Console",
-    description: "Command-line interface for API management",
-    category: "console",
-    tags: ["Node.js", "CLI", "GraphQL"],
-    imageUrl:
-      "https://images.pexels.com/photos/5223887/pexels-photo-5223887.jpeg?w=600&h=400&fit=crop",
-  },
-  {
-    id: 4,
-    title: "Fitness Tracker App",
-    description: "Health and lifestyle application with real-time tracking",
-    category: "Health & Lifestyle",
-    tags: ["React", "MongoDB", "Express"],
-    imageUrl:
-      "https://images.pexels.com/photos/4498483/pexels-photo-4498483.jpeg?w=600&h=400&fit=crop",
-  },
-  {
     id: 5,
     title: "Online Store",
     description: "Modern e-commerce platform with admin dashboard",
@@ -57,15 +39,6 @@ const allProjects: Project[] = [
     tags: ["React", "TypeScript", "Tailwind CSS"],
     imageUrl:
       "https://images.pexels.com/photos/6214450/pexels-photo-6214450.jpeg?w=600&h=400&fit=crop",
-  },
-  {
-    id: 6,
-    title: "Course Academy",
-    description: "Educational platform for online learning and certification",
-    category: "Education",
-    tags: ["Next.js", "PostgreSQL", "React"],
-    imageUrl:
-      "https://images.pexels.com/photos/8617774/pexels-photo-8617774.jpeg?w=600&h=400&fit=crop",
   },
 ];
 
