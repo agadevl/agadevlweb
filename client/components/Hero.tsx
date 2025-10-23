@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative w-full overflow-hidden bg-[hsl(var(--background))] pt-20 sm:pt-24 pb-20 min-h-screen flex items-center justify-center">
+    <div className="relative w-full overflow-hidden bg-[hsl(var(--background))] pt-20 sm:pt-24 pb-20 min-h-screen flex items-center justify-center" style={{ margin: "4px 0 0 -1px" }}>
       {/* Decorative gradient blobs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Blob 1 - Top left white to purple gradient */}
