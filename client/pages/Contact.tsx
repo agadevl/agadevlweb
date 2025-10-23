@@ -12,7 +12,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormState((prev) => ({ ...prev, [name]: value }));
@@ -89,8 +89,9 @@ export default function Contact() {
             </h1>
             <div className="h-1 w-20 bg-[hsl(var(--purple-accent))] rounded-full" />
             <p className="text-white/60 mt-6 max-w-2xl">
-              I'm always open to new opportunities and interesting projects. Feel
-              free to reach out if you'd like to collaborate or just say hello!
+              I'm always open to new opportunities and interesting projects.
+              Feel free to reach out if you'd like to collaborate or just say
+              hello!
             </p>
           </div>
 
@@ -175,9 +176,9 @@ export default function Contact() {
                     Let's Connect
                   </h3>
                   <p className="text-white/60 leading-relaxed">
-                    Whether you have a question, a project proposal, or just want
-                    to say hi, feel free to get in touch. I typically respond
-                    within 24 hours.
+                    Whether you have a question, a project proposal, or just
+                    want to say hi, feel free to get in touch. I typically
+                    respond within 24 hours.
                   </p>
                 </div>
 
