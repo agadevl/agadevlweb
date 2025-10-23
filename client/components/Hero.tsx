@@ -99,37 +99,33 @@ export default function Hero() {
             </h3>
           </div>
 
-          {/* Subheading with code-like text */}
-          <div className="text-center mb-8 sm:mb-10 lg:mb-16">
-            <div className="flex items-center justify-center mb-4 sm:mb-5 gap-1">
-              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
-                www.Afraoua.it
-              </span>
-              <span className="text-sm sm:text-base text-[hsl(var(--blue-accent))] font-mono">
-                ]
-              </span>
-            </div>
-            <p className="text-sm sm:text-base text-white/50 font-normal">
-              <br />
-            </p>
-          </div>
-
-          {/* Loading text */}
-          <div className="flex items-center justify-center gap-2 sm:gap-3">
-            <p className="text-xs sm:text-sm text-white/40 font-light">
-              Loading my best work for you...
-            </p>
-            <div className="flex gap-1 sm:gap-1.5">
-              <div className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/30 animate-pulse" />
-              <div
-                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/40 animate-pulse"
-                style={{ animationDelay: "0.2s" }}
-              />
-              <div
-                className="h-1.5 w-1 sm:h-2 sm:w-1.5 rounded-full bg-white/50 animate-pulse"
-                style={{ animationDelay: "0.4s" }}
-              />
-            </div>
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 sm:mt-12">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-full bg-[hsl(var(--purple-accent))] text-white font-semibold hover:opacity-90 transition-opacity"
+            >
+              <Download size={18} />
+              Download CV
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-full border-2 border-[hsl(var(--purple-accent))] text-[hsl(var(--purple-accent))] font-semibold hover:bg-[hsl(var(--purple-accent))]/10 transition-colors"
+            >
+              <Github size={18} />
+              GitHub
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-full border-2 border-[hsl(var(--purple-accent))] text-[hsl(var(--purple-accent))] font-semibold hover:bg-[hsl(var(--purple-accent))]/10 transition-colors"
+            >
+              <Linkedin size={18} />
+              LinkedIn
+            </a>
           </div>
         </div>
       </div>
