@@ -49,8 +49,6 @@ export default function ProjectPortfolio() {
     "All",
     "E-commerce",
     "Education",
-    "console",
-    "Health & Lifestyle",
   ];
 
   const filteredProjects =
