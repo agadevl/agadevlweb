@@ -45,11 +45,7 @@ const allProjects: Project[] = [
 export default function ProjectPortfolio() {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = [
-    "All",
-    "E-commerce",
-    "Education",
-  ];
+  const filters = ["All", "E-commerce", "Education"];
 
   const filteredProjects =
     activeFilter === "All"
