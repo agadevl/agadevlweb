@@ -71,30 +71,49 @@ export default function Footer() {
             <h3 className="font-semibold text-white mb-4">Contact</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <Mail size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <Mail
+                  size={16}
+                  className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0"
+                />
                 <div>
-                  <p className="text-white/60 text-xs font-semibold uppercase">Email</p>
-                  <a href="mailto:afraoua@live.fr" className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors">
+                  <p className="text-white/60 text-xs font-semibold uppercase">
+                    Email
+                  </p>
+                  <a
+                    href="mailto:afraoua@live.fr"
+                    className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors"
+                  >
                     afraoua@live.fr
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Phone size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <Phone
+                  size={16}
+                  className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0"
+                />
                 <div>
-                  <p className="text-white/60 text-xs font-semibold uppercase">Phone</p>
-                  <a href="tel:+393517539367" className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors">
+                  <p className="text-white/60 text-xs font-semibold uppercase">
+                    Phone
+                  </p>
+                  <a
+                    href="tel:+393517539367"
+                    className="text-white text-sm hover:text-[hsl(var(--purple-accent))] transition-colors"
+                  >
                     +39 351 753 9367
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin size={16} className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0" />
+                <MapPin
+                  size={16}
+                  className="text-[hsl(var(--purple-accent))] mt-1 flex-shrink-0"
+                />
                 <div>
-                  <p className="text-white/60 text-xs font-semibold uppercase">Location</p>
-                  <p className="text-white text-sm">
-                    Sondrio, Italy
+                  <p className="text-white/60 text-xs font-semibold uppercase">
+                    Location
                   </p>
+                  <p className="text-white text-sm">Sondrio, Italy</p>
                 </div>
               </div>
             </div>
